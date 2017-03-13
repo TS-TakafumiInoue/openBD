@@ -1,0 +1,20 @@
+openBDのメモ
+
+APIが提供されている
+	版元ドットコムにベース(使い方が同じ)のAPIがある。
+	http://www.hanmoto.com/about_api
+
+書誌情報の取得方法(ISBNは整形しなくてもOK。prettyをつけるとJSONの整形をしてくれる。)
+	https://api.openbd.jp/v1/get?isbn=978-4-7808-0204-7&pretty
+	https://api.openbd.jp/v1/get?isbn=9780001971714,9780002151764&pretty
+
+書籍のISBN一覧(2017/1/25時点の書誌情報は790820タイトル)
+	https://api.openbd.jp/v1/coverage
+
+書籍情報のJSONフォーマット
+	https://api.openbd.jp/v1/schema?pretty
+
+書籍のデータ仕様
+	https://openbd.jp/spec/
+
+
